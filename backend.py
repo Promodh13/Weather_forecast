@@ -10,7 +10,7 @@ def get_data(place, days=None):
     filtered_data = data["list"]
     nr_values = 8 * days
     filtered_data = filtered_data[:nr_values]
-    return data
+    return filtered_data
 
 
 if __name__ == "__main__":
